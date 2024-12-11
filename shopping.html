@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{ url_for('static', filename='shopping.css') }}">
+    <link rel="stylesheet" href="shopping.css">
+    <script src="shopping.js"></script>
+    <title>Shopping for all</title>
+</head>
+<body>
+    <header>
+        <marquee><div class="logo">Explore New and Trendy Fashion</div></marquee>
+        <nav>
+            <ul>
+                <li><a href="" target="_main">Home</a></li>
+                <li><a href="{{ url_for('product') }}" target="_main">Products</a></li>
+                <li><a href="{{ url_for('education') }}" target="_main">Education</a></li>
+                <li><a href="{{ url_for('contact') }}" target="_main">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="product-grid">
+            <div class="product">
+                <img src="ss10.jpeg" alt="Product 1">
+                <h3>Product 1</h3>
+                <p>$10.00</p>
+                <button onclick='alert(x)'>Add to Cart</button>
+            </div>
+            <div class="product">
+                <img src="ss11.jpeg" alt="Product 2" >
+                <h3>Product 2</h3>
+                <p>$15.00</p>
+                <button onclick='alert(x)'>Add to Cart</button>
+            </div>
+            <div class="product">
+                <img src="ss2.jpeg" alt="Product 3">
+                <h3>Product 3</h3>
+                <p>$20.00</p>
+                <button onclick='alert(x)'>Add to Cart</button>
+            </div>
+            <div class="product">
+                <img src="ss3.jpeg" alt="Product 4">
+                <h3>Product 4</h3>
+                <p>$25.00</p>
+                <button onclick='alert(x)'>Add to Cart</button>
+            </div>
+            <div class="product">
+                <img src="ss5.jpeg" alt="Product 5">
+                <h3>Product 5</h3>
+                <p>$35.00</p>
+                <button onclick='alert(x)'>Add to Cart</button>
+            </div>
+            <div class="product">
+                <img src="ss6.jpeg" alt="Product 6">
+                <h3>Product 6</h3>
+                <p>$80.00</p>
+                <button onclick='alert(x)'>Add to Cart</button>
+            </div>
+            <div class="product">
+                <img src="ss7.jpeg" alt="Product 7">
+                <h3>Product 7</h3>
+                <p>$180.00</p>
+                <button onclick='alert(x)'>Add to Cart</button>
+            </div>
+            <div class="product">
+                <img src="ss8.jpeg" alt="Product 8">
+                <h3>Product 8</h3>
+                <p>$340.00</p>
+                <button onclick='alert(x)'>Add to Cart</button>
+            </div>
+            <div class="product">
+                <img src="ss9.jpeg" alt="Product 9">
+                <h3>Product 9</h3>
+                <p>$470.00</p>
+                <button onclick='alert(x)'>Add to Cart</button>
+            </div>
+            <div class="product">
+                <img src="ss12.jpeg" alt="Product 10">
+                <h3>Product 10</h3>
+                <p>$890.00</p>
+                <button onclick='alert(x)'>Add to Cart</button>
+            </div>
+            <div class="product">
+                <img src="ss13.jpeg" alt="Product 11">
+                <h3>Product 11</h3>
+                <p>$370.00</p>
+                <button onclick='alert(x)'>Add to Cart</button>
+            </div>
+            <div class="product">
+                <img src="ss14.jpeg" alt="Product 12">
+                <h3>Product 12</h3>
+                <p>$400.00</p>
+                <button onclick='alert(x)'>Add to Cart</button>
+            </div>
+            <div class="product">
+                <img src="ss15.jpeg" alt="Product 13">
+                <h3>Product 13</h3>
+                <p>$240.00</p>
+                <button onclick='alert(x)'>Add to Cart</button>
+            </div>
+            <div class="product">
+                <img src="ss16.jpeg" alt="Product 14">
+                <h3>Product 14</h3>
+                <p>$470.00</p>
+                <button onclick='alert(x)'>Add to Cart</button>
+            </div>
+            <div class="product">
+                <img src="ss17.jpeg" alt="Product 15">
+                <h3>Product 15</h3>
+                <p>$190.00</p>
+                <button onclick='alert(x)'>Add to Cart</button>
+            </div>
+            <div class="product">
+                <img src="ss18.jpeg" alt="Product 16">
+                <h3>Product 16</h3>
+                <p>$670.00</p>
+                <button onclick='alert(x)'>Add to Cart</button>
+            </div>
+
+        </section>
+    <footer>
+        <section id="s1">
+            <div class="container">
+                <h1>Contact Us</h1>
+                <form id="contactForm">
+                    <div class="form-group">
+                        <label for="name">Name:</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="mobile">Mobile Number:</label>
+                        <input type="tel" id="mobile" name="mobile" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="address">Address:</label>
+                        <input type="text" id="address" name="address" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message:</label>
+                        <textarea id="message" name="message" rows="4" required></textarea>
+                    </div>
+                    <button type="submit">Submit</button>
+                </form>
+            </div>
+            <div>
+                <p id="p1">SHOP SMART, LIVE STYLISH!</p>
+            </div>
+        </section>
+        <p style="position: static;">&copy; Jattin Meghani. All rights reserved</p>
+    </footer>
+
+    
+</body>
+</html>
